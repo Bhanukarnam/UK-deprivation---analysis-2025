@@ -4,9 +4,9 @@
 
 This project analyses the UK Index of Multiple Deprivation (IMD) 2025 data using SQL and Power BI.
 
-The project focuses on exploring deprivation patterns across local areas and analysing different aspects of deprivation using data preparation, SQL queries, data modelling, DAX, and interactive Power BI visualizations.
+The project focuses on exploring deprivation patterns across local areas and analysing deprivation data using SQL queries, data preparation, data modelling, DAX, and Power BI visualizations.
 
-The aim of the project is to transform the raw IMD data into meaningful insights that can support the understanding of deprivation across geographical areas.
+The aim of the project is to transform the IMD 2025 data into meaningful insights and present the results through an interactive Power BI dashboard.
 
 ---
 
@@ -17,12 +17,12 @@ The main objectives of this project are:
 - Explore and understand the IMD 2025 dataset
 - Clean and prepare the data for analysis
 - Use SQL to query and analyse the dataset
-- Analyse deprivation across local authorities
-- Examine deprivation-related measures and rankings
-- Connect supporting geographical lookup data
-- Identify areas with higher and lower levels of deprivation
+- Analyse deprivation across local authority areas
+- Analyse geographical patterns in deprivation
+- Use lookup data to support geographical analysis
+- Identify areas with different levels of deprivation
 - Create an interactive Power BI dashboard
-- Present key findings through data visualizations
+- Present analytical findings through visualizations
 - Develop practical SQL and Power BI data analysis skills
 
 ---
@@ -32,19 +32,19 @@ The main objectives of this project are:
 The project uses the following data sources:
 
 - IMD 2025 dataset
-- Local Authority District to Region lookup
-- Local Authority District to County lookup
+- Local Authority District to Region lookup data
+- Local Authority District to County lookup data
 
-The lookup datasets were used to provide additional geographical information and support the analysis of local authority areas.
+The geographical lookup data supports the analysis by providing additional information about local authority areas, regions, and counties.
 
 ---
 
 ## Tools and Technologies
 
-The following tools were used:
+The following tools and technologies were used:
 
 - **SQL** — Data querying and analysis
-- **Power BI** — Data visualization and dashboard development
+- **Power BI** — Dashboard development and visualization
 - **DAX** — Measures and calculations
 - **Power Query** — Data preparation and transformation
 
@@ -56,14 +56,14 @@ The data was prepared before performing the analysis.
 
 The main preparation steps included:
 
-- Importing the IMD 2025 dataset
-- Reviewing the available columns and data types
-- Checking the data for missing or inconsistent values
-- Preparing the local authority lookup data
-- Preparing the region lookup data
-- Preparing the county lookup data
-- Connecting geographical information to the main dataset
-- Preparing the data model for Power BI analysis
+- Importing the IMD 2025 data
+- Reviewing the dataset structure
+- Checking data types
+- Checking for missing and inconsistent values
+- Preparing geographical lookup data
+- Connecting local authority information with geographical information
+- Preparing the data for SQL analysis
+- Preparing the data model for Power BI
 
 ---
 
@@ -75,72 +75,106 @@ The analysis included:
 
 - Filtering records
 - Sorting data
-- Grouping records
+- Grouping data
 - Aggregating data
 - Counting records
 - Calculating summary statistics
-- Identifying areas with higher deprivation
-- Identifying areas with lower deprivation
-- Analysing local authority information
-- Working with geographical lookup tables
+- Analysing local authority areas
+- Analysing geographical information
 - Joining related datasets
+- Comparing deprivation-related measures
 
 ---
 
 ## Power BI Dashboard
 
-The cleaned and prepared data was imported into Power BI to create an interactive dashboard.
+The prepared data was imported into Power BI to create an interactive dashboard.
 
-The dashboard provides a visual overview of deprivation data and allows users to explore patterns across different geographical areas.
+The dashboard provides a visual overview of the IMD 2025 data and allows users to explore deprivation patterns across different geographical areas.
 
 ### Dashboard Features
 
-The dashboard includes visualizations for:
+The dashboard includes:
 
+- Key performance indicators
 - Deprivation analysis
 - Local authority comparisons
 - Regional analysis
-- Geographical patterns
-- Key performance indicators
-- Interactive filtering and slicers
+- Geographical analysis
+- Charts and tables
+- Interactive filters
+- Slicers
 
 ---
 
-## Key Visualizations
+## Dashboard Screenshots
 
-### Deprivation Overview
+### Dashboard Overview
 
-The dashboard provides an overview of deprivation levels across the analysed areas.
+![UK IMD 2025 Dashboard](imd-dashboard.png)
 
-### Local Authority Analysis
+---
 
-Local authorities can be compared to identify differences in deprivation.
+### Dashboard Analysis
 
-### Regional Analysis
+![UK IMD 2025 Dashboard Analysis](imd-dashboard1.png)
 
-The data can be analysed by region to understand geographical patterns.
+---
 
-### Interactive Filters
+### Dashboard Additional View
 
-Slicers and filters allow users to explore the data based on different geographical categories and measures.
+![UK IMD 2025 Dashboard Additional View](imd-dashboard2.png)
 
 ---
 
 ## Data Model
 
-The Power BI data model combines the main IMD dataset with geographical lookup tables.
+The Power BI model combines the main IMD dataset with geographical lookup information.
 
-The model uses relationships between local authority information and the corresponding region and county information.
+The relationships between the datasets allow the analysis to be performed across different geographical levels.
 
-This allows the dashboard to analyse deprivation data at different geographical levels.
+This supports analysis of deprivation across local authorities, regions, and counties.
 
 ---
 
 ## DAX
 
-DAX was used to create calculations and measures required for the Power BI analysis.
+DAX was used to create calculations and measures required for the Power BI dashboard.
 
-The measures support the dashboard by providing calculated values and analytical metrics.
+The measures support the analysis by providing calculated values and analytical metrics for the dashboard visualizations.
+
+---
+
+## Analysis Performed
+
+The project explores a range of analytical questions, including:
+
+- What are the different levels of deprivation across local areas?
+- Which local authority areas have higher levels of deprivation?
+- Which areas have lower levels of deprivation?
+- How does deprivation vary across regions?
+- How can local authorities be compared?
+- How can geographical lookup data support deprivation analysis?
+- What patterns can be identified from the IMD 2025 data?
+
+---
+
+## Project Workflow
+
+The overall workflow for this project was:
+
+1. Collect the IMD 2025 datasets
+2. Review and understand the data
+3. Prepare the datasets for analysis
+4. Analyse the data using SQL
+5. Prepare geographical lookup information
+6. Load the data into Power BI
+7. Build the data model
+8. Create DAX calculations
+9. Develop Power BI visualizations
+10. Build the interactive dashboard
+11. Analyse the results
+12. Present the findings through the dashboard
 
 ---
 
@@ -153,16 +187,16 @@ This project demonstrates the following skills:
 - DAX
 - Power Query
 - Data Cleaning
+- Data Preparation
 - Data Transformation
 - Data Modelling
-- Data Analysis
-- Data Visualization
-- Working with Lookup Tables
 - SQL Joins
-- Aggregation
-- Filtering
+- Data Aggregation
+- Data Filtering
 - Geographical Data Analysis
+- Data Visualization
 - Dashboard Development
+- Exploratory Data Analysis
 - Analytical Thinking
 - Data Storytelling
 
@@ -172,36 +206,19 @@ This project demonstrates the following skills:
 
 | File | Description |
 |---|---|
-| `imd_analysis.sql` | SQL queries used for data analysis |
-| `imd_dashboard.pbix` | Power BI dashboard |
-| `imd-dashboard.png` | Screenshot of the Power BI dashboard |
-
----
-
-## Project Workflow
-
-The overall workflow for this project was:
-
-1. Collect the IMD 2025 datasets
-2. Review and understand the data
-3. Prepare the datasets for analysis
-4. Perform data analysis using SQL
-5. Prepare geographical lookup information
-6. Load the data into Power BI
-7. Build the data model
-8. Create DAX calculations
-9. Develop Power BI visualizations
-10. Build the interactive dashboard
-11. Analyse the results
-12. Present the final insights
+| `UK-deprivation-analysis - 2025.sql` | SQL queries used for data analysis |
+| `uk data.pbix` | Power BI dashboard |
+| `imd-dashboard.png` | Dashboard screenshot |
+| `imd-dashboard1.png` | Additional dashboard screenshot |
+| `imd-dashboard2.png` | Additional dashboard screenshot |
 
 ---
 
 ## Project Outcome
 
-This project provided practical experience in analysing a large geographical dataset using SQL and Power BI.
+This project provided practical experience in analysing deprivation data using SQL and Power BI.
 
-The project demonstrates an end-to-end data analysis workflow, from data preparation and SQL analysis through to data modelling, visualization, and dashboard development.
+The project demonstrates an end-to-end data analysis workflow, including data preparation, SQL analysis, data modelling, DAX calculations, visualization, and interactive dashboard development.
 
 ---
 
@@ -210,12 +227,12 @@ The project demonstrates an end-to-end data analysis workflow, from data prepara
 Possible future improvements include:
 
 - Adding more detailed regional comparisons
-- Adding additional geographical analysis
-- Creating more advanced DAX measures
-- Adding trend analysis when historical IMD datasets are available
+- Adding historical IMD datasets for trend analysis
+- Creating additional DAX measures
+- Adding more geographical analysis
 - Including additional socio-economic datasets
-- Developing more advanced interactive Power BI features
-- Adding further analysis of individual deprivation domains
+- Creating more advanced Power BI visualizations
+- Expanding the analysis of individual deprivation domains
 
 ---
 
